@@ -1,0 +1,83 @@
+======================================================================
+ESS REPRODUCTION REPORT
+Headline figure: overall_ess = 0.751498 (phase5_overall_score.csv)
+======================================================================
+
+--- STEP 1: Load per-instance explainer agreement ---
+  Rows: 1200  (expected: 12 combos x 100 instances = 1200)
+
+--- STEP 2: Recompute EAS per instance ---
+  Max |recomputed - saved| EAS: 1.11e-16
+dataset         model      eas
+ german      lightgbm 0.459374
+ german           mlp 0.489691
+ german random_forest 0.635354
+ german       xgboost 0.562926
+   gmsc      lightgbm 0.624745
+   gmsc           mlp 0.645573
+   gmsc random_forest 0.751639
+   gmsc       xgboost 0.694067
+ taiwan      lightgbm 0.529578
+ taiwan           mlp 0.469566
+ taiwan random_forest 0.677481
+ taiwan       xgboost 0.571850
+
+--- STEP 3: Recompute CSS per instance ---
+dataset         model      css
+ german      lightgbm 0.588864
+ german           mlp 0.634331
+ german random_forest 0.650833
+ german       xgboost 0.627727
+   gmsc      lightgbm 0.569238
+   gmsc           mlp 0.501310
+   gmsc random_forest 0.624905
+   gmsc       xgboost 0.589095
+ taiwan      lightgbm 0.614500
+ taiwan           mlp 0.589156
+ taiwan random_forest 0.677250
+ taiwan       xgboost 0.581250
+
+--- STEP 4: Recompute RS from phase-4 perturbation files ---
+dataset         model  mean_abs     flip       rs
+ german       xgboost  0.012904 0.020714 0.984071
+ german      lightgbm  0.014266 0.015000 0.985561
+ german random_forest  0.002026 0.001429 0.998215
+ german           mlp  0.003193 0.011429 0.993519
+ taiwan       xgboost  0.004281 0.008500 0.994043
+ taiwan      lightgbm  0.010662 0.023750 0.984170
+ taiwan random_forest  0.001510 0.004250 0.997396
+ taiwan           mlp  0.001566 0.001000 0.998662
+   gmsc       xgboost  0.006111 0.008500 0.992955
+   gmsc      lightgbm  0.098627 0.153500 0.884736
+   gmsc random_forest  0.002230 0.004000 0.997065
+   gmsc           mlp  0.002537 0.000000 0.998481
+  Max |recomputed - saved| RS: 1.11e-16
+
+--- STEP 5: Compute per-(dataset,model) ESS ---
+dataset         model      eas      css       rs  recomp_ESS
+ german      lightgbm 0.459374 0.588864 0.985561    0.695747
+ german           mlp 0.489691 0.634331 0.993519    0.720150
+ german random_forest 0.635354 0.650833 0.998215    0.783594
+ german       xgboost 0.562926 0.627727 0.984071    0.744344
+   gmsc      lightgbm 0.624745 0.569238 0.884736    0.717640
+   gmsc           mlp 0.645573 0.501310 0.998481    0.757884
+   gmsc random_forest 0.751639 0.624905 0.997065    0.824463
+   gmsc       xgboost 0.694067 0.589095 0.992955    0.792628
+ taiwan      lightgbm 0.529578 0.614500 0.984170    0.728399
+ taiwan           mlp 0.469566 0.589156 0.998662    0.705123
+ taiwan random_forest 0.677481 0.677250 0.997396    0.805401
+ taiwan       xgboost 0.571850 0.581250 0.994043    0.742607
+  Max |recomputed - saved| ESS: 1.11e-16
+
+--- STEP 6: Overall ESS ---
+  Recomputed = 0.751498
+  Saved      = 0.751498
+  Delta      = 1.11e-16
+  VERDICT: REPRODUCED (delta < 1e-6)
+
+--- STEP 7: Single-row walkthrough (German / random_forest) ---
+  EAS = 0.635354
+  CSS = 0.650833
+  RS  = 0.998215
+  ESS = 0.40x0.6354 + 0.20x0.6508 + 0.40x0.9982 = 0.783594
+  Saved ESS = 0.783594
