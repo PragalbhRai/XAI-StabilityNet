@@ -1,0 +1,448 @@
+{
+  "dataset": "taiwan",
+  "timestamp": "2026-09-24T23:49:26.510966",
+  "n_instances": 100,
+  "checks": [
+    {
+      "name": "schema_coverage",
+      "status": "PASS",
+      "detail": "20 perturbable features"
+    },
+    {
+      "name": "feature_exists_LIMIT_BAL",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_LIMIT_BAL",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_AGE",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_AGE",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_PAY_0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_PAY_0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_PAY_2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_PAY_2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_PAY_3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_PAY_3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_PAY_4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_PAY_4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_PAY_5",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_PAY_5",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_PAY_6",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_PAY_6",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_BILL_AMT1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_BILL_AMT1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_BILL_AMT2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_BILL_AMT2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_BILL_AMT3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_BILL_AMT3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_BILL_AMT4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_BILL_AMT4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_BILL_AMT5",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_BILL_AMT5",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_BILL_AMT6",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_BILL_AMT6",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_PAY_AMT1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_PAY_AMT1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_PAY_AMT2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_PAY_AMT2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_PAY_AMT3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_PAY_AMT3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_PAY_AMT4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_PAY_AMT4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_PAY_AMT5",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_PAY_AMT5",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_PAY_AMT6",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_PAY_AMT6",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "lower_bound_LIMIT_BAL",
+      "status": "PASS",
+      "detail": "0 values below 1000"
+    },
+    {
+      "name": "upper_bound_LIMIT_BAL",
+      "status": "PASS",
+      "detail": "0 values above 2000000"
+    },
+    {
+      "name": "lower_bound_AGE",
+      "status": "PASS",
+      "detail": "0 values below 18"
+    },
+    {
+      "name": "upper_bound_AGE",
+      "status": "PASS",
+      "detail": "0 values above 100"
+    },
+    {
+      "name": "lower_bound_PAY_0",
+      "status": "PASS",
+      "detail": "0 values below -2"
+    },
+    {
+      "name": "upper_bound_PAY_0",
+      "status": "PASS",
+      "detail": "0 values above 8"
+    },
+    {
+      "name": "lower_bound_PAY_2",
+      "status": "PASS",
+      "detail": "0 values below -2"
+    },
+    {
+      "name": "upper_bound_PAY_2",
+      "status": "PASS",
+      "detail": "0 values above 8"
+    },
+    {
+      "name": "lower_bound_PAY_3",
+      "status": "PASS",
+      "detail": "0 values below -2"
+    },
+    {
+      "name": "upper_bound_PAY_3",
+      "status": "PASS",
+      "detail": "0 values above 8"
+    },
+    {
+      "name": "lower_bound_PAY_4",
+      "status": "PASS",
+      "detail": "0 values below -2"
+    },
+    {
+      "name": "upper_bound_PAY_4",
+      "status": "PASS",
+      "detail": "0 values above 8"
+    },
+    {
+      "name": "lower_bound_PAY_5",
+      "status": "PASS",
+      "detail": "0 values below -2"
+    },
+    {
+      "name": "upper_bound_PAY_5",
+      "status": "PASS",
+      "detail": "0 values above 8"
+    },
+    {
+      "name": "lower_bound_PAY_6",
+      "status": "PASS",
+      "detail": "0 values below -2"
+    },
+    {
+      "name": "upper_bound_PAY_6",
+      "status": "PASS",
+      "detail": "0 values above 8"
+    },
+    {
+      "name": "lower_bound_PAY_AMT1",
+      "status": "PASS",
+      "detail": "0 values below 0.0"
+    },
+    {
+      "name": "lower_bound_PAY_AMT2",
+      "status": "PASS",
+      "detail": "0 values below 0.0"
+    },
+    {
+      "name": "lower_bound_PAY_AMT3",
+      "status": "PASS",
+      "detail": "0 values below 0.0"
+    },
+    {
+      "name": "lower_bound_PAY_AMT4",
+      "status": "PASS",
+      "detail": "0 values below 0.0"
+    },
+    {
+      "name": "lower_bound_PAY_AMT5",
+      "status": "PASS",
+      "detail": "0 values below 0.0"
+    },
+    {
+      "name": "lower_bound_PAY_AMT6",
+      "status": "PASS",
+      "detail": "0 values below 0.0"
+    },
+    {
+      "name": "integer_PAY_0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "integer_PAY_2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "integer_PAY_3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "integer_PAY_4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "integer_PAY_5",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "integer_PAY_6",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_LIMIT_BAL",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_PAY_0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_PAY_2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_PAY_3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_PAY_4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_PAY_5",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_PAY_6",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_BILL_AMT1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_BILL_AMT2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_BILL_AMT3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_BILL_AMT4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_BILL_AMT5",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_BILL_AMT6",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_PAY_AMT1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_PAY_AMT2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_PAY_AMT3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_PAY_AMT4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_PAY_AMT5",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_PAY_AMT6",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "overall": "PASS"
+}

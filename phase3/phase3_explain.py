@@ -40,7 +40,21 @@ import shap
 from lime.lime_tabular import LimeTabularExplainer
 
 
-warnings.filterwarnings("ignore")
+# Stage 1.5 fix I-7: Replaced broad warnings.filterwarnings("ignore") with
+# targeted suppressions. Only suppress specific known non-actionable messages
+# from third-party libraries. All other warnings are visible.
+warnings.filterwarnings(
+    "ignore",
+    message=".*LightGBM.*",
+    category=UserWarning,
+)
+warnings.filterwarnings(
+    "ignore",
+    message=".*No further splits with positive gain.*",
+    category=UserWarning,
+)
+# Note: SHAP KernelExplainer nsamples=100 convergence warnings are NOT
+# suppressed so they remain visible during future experiments.
 
 
 # ============================================================

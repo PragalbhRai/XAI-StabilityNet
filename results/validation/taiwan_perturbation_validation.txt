@@ -1,0 +1,94 @@
+PERTURBATION VALIDATION REPORT - TAIWAN
+Stage 1.5 Corrective Pass
+Generated: 2026-09-24T23:49:26.510966
+Instances: 100
+Overall: PASS
+==================================================
+  [PASS] schema_coverage: 20 perturbable features
+  [PASS] feature_exists_LIMIT_BAL
+  [PASS] finite_LIMIT_BAL
+  [PASS] feature_exists_AGE
+  [PASS] finite_AGE
+  [PASS] feature_exists_PAY_0
+  [PASS] finite_PAY_0
+  [PASS] feature_exists_PAY_2
+  [PASS] finite_PAY_2
+  [PASS] feature_exists_PAY_3
+  [PASS] finite_PAY_3
+  [PASS] feature_exists_PAY_4
+  [PASS] finite_PAY_4
+  [PASS] feature_exists_PAY_5
+  [PASS] finite_PAY_5
+  [PASS] feature_exists_PAY_6
+  [PASS] finite_PAY_6
+  [PASS] feature_exists_BILL_AMT1
+  [PASS] finite_BILL_AMT1
+  [PASS] feature_exists_BILL_AMT2
+  [PASS] finite_BILL_AMT2
+  [PASS] feature_exists_BILL_AMT3
+  [PASS] finite_BILL_AMT3
+  [PASS] feature_exists_BILL_AMT4
+  [PASS] finite_BILL_AMT4
+  [PASS] feature_exists_BILL_AMT5
+  [PASS] finite_BILL_AMT5
+  [PASS] feature_exists_BILL_AMT6
+  [PASS] finite_BILL_AMT6
+  [PASS] feature_exists_PAY_AMT1
+  [PASS] finite_PAY_AMT1
+  [PASS] feature_exists_PAY_AMT2
+  [PASS] finite_PAY_AMT2
+  [PASS] feature_exists_PAY_AMT3
+  [PASS] finite_PAY_AMT3
+  [PASS] feature_exists_PAY_AMT4
+  [PASS] finite_PAY_AMT4
+  [PASS] feature_exists_PAY_AMT5
+  [PASS] finite_PAY_AMT5
+  [PASS] feature_exists_PAY_AMT6
+  [PASS] finite_PAY_AMT6
+  [PASS] lower_bound_LIMIT_BAL: 0 values below 1000
+  [PASS] upper_bound_LIMIT_BAL: 0 values above 2000000
+  [PASS] lower_bound_AGE: 0 values below 18
+  [PASS] upper_bound_AGE: 0 values above 100
+  [PASS] lower_bound_PAY_0: 0 values below -2
+  [PASS] upper_bound_PAY_0: 0 values above 8
+  [PASS] lower_bound_PAY_2: 0 values below -2
+  [PASS] upper_bound_PAY_2: 0 values above 8
+  [PASS] lower_bound_PAY_3: 0 values below -2
+  [PASS] upper_bound_PAY_3: 0 values above 8
+  [PASS] lower_bound_PAY_4: 0 values below -2
+  [PASS] upper_bound_PAY_4: 0 values above 8
+  [PASS] lower_bound_PAY_5: 0 values below -2
+  [PASS] upper_bound_PAY_5: 0 values above 8
+  [PASS] lower_bound_PAY_6: 0 values below -2
+  [PASS] upper_bound_PAY_6: 0 values above 8
+  [PASS] lower_bound_PAY_AMT1: 0 values below 0.0
+  [PASS] lower_bound_PAY_AMT2: 0 values below 0.0
+  [PASS] lower_bound_PAY_AMT3: 0 values below 0.0
+  [PASS] lower_bound_PAY_AMT4: 0 values below 0.0
+  [PASS] lower_bound_PAY_AMT5: 0 values below 0.0
+  [PASS] lower_bound_PAY_AMT6: 0 values below 0.0
+  [PASS] integer_PAY_0
+  [PASS] integer_PAY_2
+  [PASS] integer_PAY_3
+  [PASS] integer_PAY_4
+  [PASS] integer_PAY_5
+  [PASS] integer_PAY_6
+  [PASS] domain_sim_LIMIT_BAL
+  [PASS] domain_sim_PAY_0
+  [PASS] domain_sim_PAY_2
+  [PASS] domain_sim_PAY_3
+  [PASS] domain_sim_PAY_4
+  [PASS] domain_sim_PAY_5
+  [PASS] domain_sim_PAY_6
+  [PASS] domain_sim_BILL_AMT1
+  [PASS] domain_sim_BILL_AMT2
+  [PASS] domain_sim_BILL_AMT3
+  [PASS] domain_sim_BILL_AMT4
+  [PASS] domain_sim_BILL_AMT5
+  [PASS] domain_sim_BILL_AMT6
+  [PASS] domain_sim_PAY_AMT1
+  [PASS] domain_sim_PAY_AMT2
+  [PASS] domain_sim_PAY_AMT3
+  [PASS] domain_sim_PAY_AMT4
+  [PASS] domain_sim_PAY_AMT5
+  [PASS] domain_sim_PAY_AMT6

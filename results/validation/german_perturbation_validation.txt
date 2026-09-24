@@ -1,0 +1,49 @@
+PERTURBATION VALIDATION REPORT - GERMAN
+Stage 1.5 Corrective Pass
+Generated: 2026-09-24T23:49:26.487712
+Instances: 100
+Overall: PASS
+==================================================
+  [PASS] schema_coverage: 6 perturbable features
+  [PASS] feature_exists_age
+  [PASS] finite_age
+  [PASS] feature_exists_duration
+  [PASS] finite_duration
+  [PASS] feature_exists_credit_amount
+  [PASS] finite_credit_amount
+  [PASS] feature_exists_installment_rate
+  [PASS] finite_installment_rate
+  [PASS] feature_exists_existing_credits
+  [PASS] finite_existing_credits
+  [PASS] feature_exists_num_dependents
+  [PASS] finite_num_dependents
+  [PASS] lower_bound_age: 0 values below 18
+  [PASS] upper_bound_age: 0 values above 100
+  [PASS] lower_bound_duration: 0 values below 4
+  [PASS] upper_bound_duration: 0 values above 72
+  [PASS] lower_bound_credit_amount: 0 values below 100
+  [PASS] upper_bound_credit_amount: 0 values above 50000
+  [PASS] lower_bound_installment_rate: 0 values below 1
+  [PASS] upper_bound_installment_rate: 0 values above 4
+  [PASS] lower_bound_existing_credits: 0 values below 1
+  [PASS] upper_bound_existing_credits: 0 values above 4
+  [PASS] lower_bound_num_dependents: 0 values below 0
+  [PASS] upper_bound_num_dependents: 0 values above 5
+  [PASS] integer_installment_rate
+  [PASS] integer_existing_credits
+  [PASS] integer_num_dependents
+  [PASS] onehot_checking_status_A12: 0 invalid rows
+  [PASS] onehot_savings_status_A62: 0 invalid rows
+  [PASS] onehot_credit_history_A31: 0 invalid rows
+  [PASS] onehot_employment_A72: 0 invalid rows
+  [PASS] onehot_personal_status_A92: 0 invalid rows
+  [PASS] onehot_other_parties_A102: 0 invalid rows
+  [PASS] onehot_property_magnitude_A: 0 invalid rows
+  [PASS] onehot_other_payment_plans_: 0 invalid rows
+  [PASS] onehot_housing_A152: 0 invalid rows
+  [PASS] onehot_job_A172: 0 invalid rows
+  [PASS] domain_sim_duration
+  [PASS] domain_sim_credit_amount
+  [PASS] domain_sim_installment_rate
+  [PASS] domain_sim_existing_credits
+  [PASS] domain_sim_num_dependents

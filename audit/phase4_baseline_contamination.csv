@@ -1,0 +1,4 @@
+dataset,affected_feature_count,affected_features,affected_row_count,total_row_count,affected_row_fraction,affected_instance_count
+german,1,num_dependents,1600,11200,0.1429,100
+taiwan,18,BILL_AMT1;BILL_AMT2;BILL_AMT3;BILL_AMT4;BILL_AMT5;BILL_AMT6;PAY_0;PAY_2;PAY_3;PAY_4;PAY_5;PAY_6;PAY_AMT1;PAY_AMT2;PAY_AMT3;PAY_AMT4;PAY_AMT5;PAY_AMT6,28800,32000,0.9,100
+gmsc,4,NumberOfDependents;NumberOfTime30-59DaysPastDueNotWorse;NumberOfTime60-89DaysPastDueNotWorse;NumberOfTimes90DaysLate,6400,16000,0.4,100

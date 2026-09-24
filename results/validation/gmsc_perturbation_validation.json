@@ -1,0 +1,253 @@
+{
+  "dataset": "gmsc",
+  "timestamp": "2026-09-24T23:49:26.524071",
+  "n_instances": 100,
+  "checks": [
+    {
+      "name": "schema_coverage",
+      "status": "PASS",
+      "detail": "10 perturbable features"
+    },
+    {
+      "name": "feature_exists_age",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_age",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_RevolvingUtilizationOfUnsecuredLines",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_RevolvingUtilizationOfUnsecuredLines",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_DebtRatio",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_DebtRatio",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_MonthlyIncome",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_MonthlyIncome",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_NumberOfOpenCreditLinesAndLoans",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_NumberOfOpenCreditLinesAndLoans",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_NumberRealEstateLoansOrLines",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_NumberRealEstateLoansOrLines",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_NumberOfTime30-59DaysPastDueNotWorse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_NumberOfTime30-59DaysPastDueNotWorse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_NumberOfTimes90DaysLate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_NumberOfTimes90DaysLate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_NumberOfTime60-89DaysPastDueNotWorse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_NumberOfTime60-89DaysPastDueNotWorse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_NumberOfDependents",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_NumberOfDependents",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "lower_bound_age",
+      "status": "PASS",
+      "detail": "0 values below 18"
+    },
+    {
+      "name": "upper_bound_age",
+      "status": "PASS",
+      "detail": "0 values above 100"
+    },
+    {
+      "name": "lower_bound_RevolvingUtilizationOfUnsecuredLines",
+      "status": "PASS",
+      "detail": "0 values below 0.0"
+    },
+    {
+      "name": "lower_bound_DebtRatio",
+      "status": "PASS",
+      "detail": "0 values below 0.0"
+    },
+    {
+      "name": "lower_bound_MonthlyIncome",
+      "status": "PASS",
+      "detail": "0 values below 0.0"
+    },
+    {
+      "name": "lower_bound_NumberOfOpenCreditLinesAndLoans",
+      "status": "PASS",
+      "detail": "0 values below 0"
+    },
+    {
+      "name": "upper_bound_NumberOfOpenCreditLinesAndLoans",
+      "status": "PASS",
+      "detail": "0 values above 60"
+    },
+    {
+      "name": "lower_bound_NumberRealEstateLoansOrLines",
+      "status": "PASS",
+      "detail": "0 values below 0"
+    },
+    {
+      "name": "upper_bound_NumberRealEstateLoansOrLines",
+      "status": "PASS",
+      "detail": "0 values above 20"
+    },
+    {
+      "name": "lower_bound_NumberOfTime30-59DaysPastDueNotWorse",
+      "status": "PASS",
+      "detail": "0 values below 0"
+    },
+    {
+      "name": "lower_bound_NumberOfTimes90DaysLate",
+      "status": "PASS",
+      "detail": "0 values below 0"
+    },
+    {
+      "name": "lower_bound_NumberOfTime60-89DaysPastDueNotWorse",
+      "status": "PASS",
+      "detail": "0 values below 0"
+    },
+    {
+      "name": "lower_bound_NumberOfDependents",
+      "status": "PASS",
+      "detail": "0 values below 0"
+    },
+    {
+      "name": "integer_NumberOfOpenCreditLinesAndLoans",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "integer_NumberRealEstateLoansOrLines",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "integer_NumberOfTime30-59DaysPastDueNotWorse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "integer_NumberOfTimes90DaysLate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "integer_NumberOfTime60-89DaysPastDueNotWorse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "integer_NumberOfDependents",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_RevolvingUtilizationOfUnsecuredLines",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_DebtRatio",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_MonthlyIncome",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_NumberOfOpenCreditLinesAndLoans",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_NumberRealEstateLoansOrLines",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_NumberOfTime30-59DaysPastDueNotWorse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_NumberOfTimes90DaysLate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_NumberOfTime60-89DaysPastDueNotWorse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_NumberOfDependents",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "overall": "PASS"
+}

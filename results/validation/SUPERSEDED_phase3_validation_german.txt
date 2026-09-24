@@ -1,0 +1,26 @@
+SUPERSEDED - PRE-STAGE1.5 VALIDATION
+========================================
+This file archives the original German-only phase-3 perturbation validation.
+It was produced before Stage 1.5 and covers only German.
+
+The authoritative Stage-1.5 reports are:
+  results/validation/german_perturbation_validation.txt
+  results/validation/taiwan_perturbation_validation.txt
+  results/validation/gmsc_perturbation_validation.txt
+
+--- ORIGINAL CONTENT ---
+Validation report: german
+========================================
+  [OK] age: monotonic non-decreasing, within bound
+  [OK] residence_since: monotonic non-decreasing
+  [OK] employment: ordinal category non-decreasing
+  [OK] duration: within bounds [4, 72]
+  [OK] credit_amount: strictly positive in all rows
+  [OK] installment_rate: within bounds [1, 4]
+  [OK] existing_credits: within bounds [1, 4]
+  [OK] credit_history: immutable categorical, unchanged in all rows
+  [OK] personal_status: immutable categorical, unchanged in all rows
+  [OK] job: immutable categorical, unchanged in all rows
+  [OK] num_dependents: immutable, unchanged in all rows
+  [OK] foreign_worker: immutable categorical, unchanged in all rows
+  [OK] all 13 one-hot groups remain mutually exclusive

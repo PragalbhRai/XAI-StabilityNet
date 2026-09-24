@@ -1,0 +1,223 @@
+{
+  "dataset": "german",
+  "timestamp": "2026-09-24T23:49:26.487712",
+  "n_instances": 100,
+  "checks": [
+    {
+      "name": "schema_coverage",
+      "status": "PASS",
+      "detail": "6 perturbable features"
+    },
+    {
+      "name": "feature_exists_age",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_age",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_duration",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_duration",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_credit_amount",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_credit_amount",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_installment_rate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_installment_rate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_existing_credits",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_existing_credits",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "feature_exists_num_dependents",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finite_num_dependents",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "lower_bound_age",
+      "status": "PASS",
+      "detail": "0 values below 18"
+    },
+    {
+      "name": "upper_bound_age",
+      "status": "PASS",
+      "detail": "0 values above 100"
+    },
+    {
+      "name": "lower_bound_duration",
+      "status": "PASS",
+      "detail": "0 values below 4"
+    },
+    {
+      "name": "upper_bound_duration",
+      "status": "PASS",
+      "detail": "0 values above 72"
+    },
+    {
+      "name": "lower_bound_credit_amount",
+      "status": "PASS",
+      "detail": "0 values below 100"
+    },
+    {
+      "name": "upper_bound_credit_amount",
+      "status": "PASS",
+      "detail": "0 values above 50000"
+    },
+    {
+      "name": "lower_bound_installment_rate",
+      "status": "PASS",
+      "detail": "0 values below 1"
+    },
+    {
+      "name": "upper_bound_installment_rate",
+      "status": "PASS",
+      "detail": "0 values above 4"
+    },
+    {
+      "name": "lower_bound_existing_credits",
+      "status": "PASS",
+      "detail": "0 values below 1"
+    },
+    {
+      "name": "upper_bound_existing_credits",
+      "status": "PASS",
+      "detail": "0 values above 4"
+    },
+    {
+      "name": "lower_bound_num_dependents",
+      "status": "PASS",
+      "detail": "0 values below 0"
+    },
+    {
+      "name": "upper_bound_num_dependents",
+      "status": "PASS",
+      "detail": "0 values above 5"
+    },
+    {
+      "name": "integer_installment_rate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "integer_existing_credits",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "integer_num_dependents",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "onehot_checking_status_A12",
+      "status": "PASS",
+      "detail": "0 invalid rows"
+    },
+    {
+      "name": "onehot_savings_status_A62",
+      "status": "PASS",
+      "detail": "0 invalid rows"
+    },
+    {
+      "name": "onehot_credit_history_A31",
+      "status": "PASS",
+      "detail": "0 invalid rows"
+    },
+    {
+      "name": "onehot_employment_A72",
+      "status": "PASS",
+      "detail": "0 invalid rows"
+    },
+    {
+      "name": "onehot_personal_status_A92",
+      "status": "PASS",
+      "detail": "0 invalid rows"
+    },
+    {
+      "name": "onehot_other_parties_A102",
+      "status": "PASS",
+      "detail": "0 invalid rows"
+    },
+    {
+      "name": "onehot_property_magnitude_A",
+      "status": "PASS",
+      "detail": "0 invalid rows"
+    },
+    {
+      "name": "onehot_other_payment_plans_",
+      "status": "PASS",
+      "detail": "0 invalid rows"
+    },
+    {
+      "name": "onehot_housing_A152",
+      "status": "PASS",
+      "detail": "0 invalid rows"
+    },
+    {
+      "name": "onehot_job_A172",
+      "status": "PASS",
+      "detail": "0 invalid rows"
+    },
+    {
+      "name": "domain_sim_duration",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_credit_amount",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_installment_rate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_existing_credits",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "domain_sim_num_dependents",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "overall": "PASS"
+}

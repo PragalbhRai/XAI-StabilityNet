@@ -1,0 +1,55 @@
+PERTURBATION VALIDATION REPORT - GMSC
+Stage 1.5 Corrective Pass
+Generated: 2026-09-24T23:49:26.524071
+Instances: 100
+Overall: PASS
+==================================================
+  [PASS] schema_coverage: 10 perturbable features
+  [PASS] feature_exists_age
+  [PASS] finite_age
+  [PASS] feature_exists_RevolvingUtilizationOfUnsecuredLines
+  [PASS] finite_RevolvingUtilizationOfUnsecuredLines
+  [PASS] feature_exists_DebtRatio
+  [PASS] finite_DebtRatio
+  [PASS] feature_exists_MonthlyIncome
+  [PASS] finite_MonthlyIncome
+  [PASS] feature_exists_NumberOfOpenCreditLinesAndLoans
+  [PASS] finite_NumberOfOpenCreditLinesAndLoans
+  [PASS] feature_exists_NumberRealEstateLoansOrLines
+  [PASS] finite_NumberRealEstateLoansOrLines
+  [PASS] feature_exists_NumberOfTime30-59DaysPastDueNotWorse
+  [PASS] finite_NumberOfTime30-59DaysPastDueNotWorse
+  [PASS] feature_exists_NumberOfTimes90DaysLate
+  [PASS] finite_NumberOfTimes90DaysLate
+  [PASS] feature_exists_NumberOfTime60-89DaysPastDueNotWorse
+  [PASS] finite_NumberOfTime60-89DaysPastDueNotWorse
+  [PASS] feature_exists_NumberOfDependents
+  [PASS] finite_NumberOfDependents
+  [PASS] lower_bound_age: 0 values below 18
+  [PASS] upper_bound_age: 0 values above 100
+  [PASS] lower_bound_RevolvingUtilizationOfUnsecuredLines: 0 values below 0.0
+  [PASS] lower_bound_DebtRatio: 0 values below 0.0
+  [PASS] lower_bound_MonthlyIncome: 0 values below 0.0
+  [PASS] lower_bound_NumberOfOpenCreditLinesAndLoans: 0 values below 0
+  [PASS] upper_bound_NumberOfOpenCreditLinesAndLoans: 0 values above 60
+  [PASS] lower_bound_NumberRealEstateLoansOrLines: 0 values below 0
+  [PASS] upper_bound_NumberRealEstateLoansOrLines: 0 values above 20
+  [PASS] lower_bound_NumberOfTime30-59DaysPastDueNotWorse: 0 values below 0
+  [PASS] lower_bound_NumberOfTimes90DaysLate: 0 values below 0
+  [PASS] lower_bound_NumberOfTime60-89DaysPastDueNotWorse: 0 values below 0
+  [PASS] lower_bound_NumberOfDependents: 0 values below 0
+  [PASS] integer_NumberOfOpenCreditLinesAndLoans
+  [PASS] integer_NumberRealEstateLoansOrLines
+  [PASS] integer_NumberOfTime30-59DaysPastDueNotWorse
+  [PASS] integer_NumberOfTimes90DaysLate
+  [PASS] integer_NumberOfTime60-89DaysPastDueNotWorse
+  [PASS] integer_NumberOfDependents
+  [PASS] domain_sim_RevolvingUtilizationOfUnsecuredLines
+  [PASS] domain_sim_DebtRatio
+  [PASS] domain_sim_MonthlyIncome
+  [PASS] domain_sim_NumberOfOpenCreditLinesAndLoans
+  [PASS] domain_sim_NumberRealEstateLoansOrLines
+  [PASS] domain_sim_NumberOfTime30-59DaysPastDueNotWorse
+  [PASS] domain_sim_NumberOfTimes90DaysLate
+  [PASS] domain_sim_NumberOfTime60-89DaysPastDueNotWorse
+  [PASS] domain_sim_NumberOfDependents
