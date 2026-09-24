@@ -1,0 +1,110 @@
+{
+    "dataset": "gmsc",
+    "target": "Default",
+    "seed": 42,
+    "original_features": [
+        "RevolvingUtilizationOfUnsecuredLines",
+        "age",
+        "NumberOfTime30-59DaysPastDueNotWorse",
+        "DebtRatio",
+        "MonthlyIncome",
+        "NumberOfOpenCreditLinesAndLoans",
+        "NumberOfTimes90DaysLate",
+        "NumberRealEstateLoansOrLines",
+        "NumberOfTime60-89DaysPastDueNotWorse",
+        "NumberOfDependents"
+    ],
+    "encoded_features": [
+        "RevolvingUtilizationOfUnsecuredLines",
+        "age",
+        "NumberOfTime30-59DaysPastDueNotWorse",
+        "DebtRatio",
+        "MonthlyIncome",
+        "NumberOfOpenCreditLinesAndLoans",
+        "NumberOfTimes90DaysLate",
+        "NumberRealEstateLoansOrLines",
+        "NumberOfTime60-89DaysPastDueNotWorse",
+        "NumberOfDependents"
+    ],
+    "categorical_features": [],
+    "feature_mapping": {
+        "RevolvingUtilizationOfUnsecuredLines": [
+            "RevolvingUtilizationOfUnsecuredLines"
+        ],
+        "age": [
+            "age"
+        ],
+        "NumberOfTime30-59DaysPastDueNotWorse": [
+            "NumberOfTime30-59DaysPastDueNotWorse"
+        ],
+        "DebtRatio": [
+            "DebtRatio"
+        ],
+        "MonthlyIncome": [
+            "MonthlyIncome"
+        ],
+        "NumberOfOpenCreditLinesAndLoans": [
+            "NumberOfOpenCreditLinesAndLoans"
+        ],
+        "NumberOfTimes90DaysLate": [
+            "NumberOfTimes90DaysLate"
+        ],
+        "NumberRealEstateLoansOrLines": [
+            "NumberRealEstateLoansOrLines"
+        ],
+        "NumberOfTime60-89DaysPastDueNotWorse": [
+            "NumberOfTime60-89DaysPastDueNotWorse"
+        ],
+        "NumberOfDependents": [
+            "NumberOfDependents"
+        ]
+    },
+    "missing_value_rules": {
+        "RevolvingUtilizationOfUnsecuredLines": {
+            "type": "numeric",
+            "value": 0.153620062
+        },
+        "age": {
+            "type": "numeric",
+            "value": 52.0
+        },
+        "NumberOfTime30-59DaysPastDueNotWorse": {
+            "type": "numeric",
+            "value": 0.0
+        },
+        "DebtRatio": {
+            "type": "numeric",
+            "value": 0.367726455
+        },
+        "MonthlyIncome": {
+            "type": "numeric",
+            "value": 5400.0
+        },
+        "NumberOfOpenCreditLinesAndLoans": {
+            "type": "numeric",
+            "value": 8.0
+        },
+        "NumberOfTimes90DaysLate": {
+            "type": "numeric",
+            "value": 0.0
+        },
+        "NumberRealEstateLoansOrLines": {
+            "type": "numeric",
+            "value": 1.0
+        },
+        "NumberOfTime60-89DaysPastDueNotWorse": {
+            "type": "numeric",
+            "value": 0.0
+        },
+        "NumberOfDependents": {
+            "type": "numeric",
+            "value": 0.0
+        }
+    },
+    "category_values": {},
+    "train_rows": 119512,
+    "test_rows": 29879,
+    "n_encoded_features": 10,
+    "train_default_rate": 0.06699745632237766,
+    "test_default_rate": 0.06700358111047894
+}

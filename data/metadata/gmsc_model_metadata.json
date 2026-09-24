@@ -1,0 +1,20 @@
+{
+    "dataset": "gmsc",
+    "target": "Default",
+    "n_train": 119512,
+    "n_test": 29879,
+    "n_features": 10,
+    "feature_columns": [
+        "RevolvingUtilizationOfUnsecuredLines",
+        "age",
+        "NumberOfTime30-59DaysPastDueNotWorse",
+        "DebtRatio",
+        "MonthlyIncome",
+        "NumberOfOpenCreditLinesAndLoans",
+        "NumberOfTimes90DaysLate",
+        "NumberRealEstateLoansOrLines",
+        "NumberOfTime60-89DaysPastDueNotWorse",
+        "NumberOfDependents"
+    ],
+    "random_seed": 42
+}

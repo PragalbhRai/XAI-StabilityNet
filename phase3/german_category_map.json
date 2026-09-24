@@ -1,0 +1,188 @@
+{
+  "checking_status": {
+    "categories_sorted": [
+      "A11",
+      "A12",
+      "A13",
+      "A14"
+    ],
+    "baseline_dropped": "A11",
+    "dummy_columns": [
+      "checking_status_A12",
+      "checking_status_A13",
+      "checking_status_A14"
+    ]
+  },
+  "credit_history": {
+    "categories_sorted": [
+      "A30",
+      "A31",
+      "A32",
+      "A33",
+      "A34"
+    ],
+    "baseline_dropped": "A30",
+    "dummy_columns": [
+      "credit_history_A31",
+      "credit_history_A32",
+      "credit_history_A33",
+      "credit_history_A34"
+    ]
+  },
+  "purpose": {
+    "categories_sorted": [
+      "A40",
+      "A41",
+      "A410",
+      "A42",
+      "A43",
+      "A44",
+      "A45",
+      "A46",
+      "A48",
+      "A49"
+    ],
+    "baseline_dropped": "A40",
+    "dummy_columns": [
+      "purpose_A41",
+      "purpose_A410",
+      "purpose_A42",
+      "purpose_A43",
+      "purpose_A44",
+      "purpose_A45",
+      "purpose_A46",
+      "purpose_A48",
+      "purpose_A49"
+    ]
+  },
+  "savings_status": {
+    "categories_sorted": [
+      "A61",
+      "A62",
+      "A63",
+      "A64",
+      "A65"
+    ],
+    "baseline_dropped": "A61",
+    "dummy_columns": [
+      "savings_status_A62",
+      "savings_status_A63",
+      "savings_status_A64",
+      "savings_status_A65"
+    ]
+  },
+  "employment": {
+    "categories_sorted": [
+      "A71",
+      "A72",
+      "A73",
+      "A74",
+      "A75"
+    ],
+    "baseline_dropped": "A71",
+    "dummy_columns": [
+      "employment_A72",
+      "employment_A73",
+      "employment_A74",
+      "employment_A75"
+    ]
+  },
+  "personal_status": {
+    "categories_sorted": [
+      "A91",
+      "A92",
+      "A93",
+      "A94"
+    ],
+    "baseline_dropped": "A91",
+    "dummy_columns": [
+      "personal_status_A92",
+      "personal_status_A93",
+      "personal_status_A94"
+    ]
+  },
+  "other_parties": {
+    "categories_sorted": [
+      "A101",
+      "A102",
+      "A103"
+    ],
+    "baseline_dropped": "A101",
+    "dummy_columns": [
+      "other_parties_A102",
+      "other_parties_A103"
+    ]
+  },
+  "property_magnitude": {
+    "categories_sorted": [
+      "A121",
+      "A122",
+      "A123",
+      "A124"
+    ],
+    "baseline_dropped": "A121",
+    "dummy_columns": [
+      "property_magnitude_A122",
+      "property_magnitude_A123",
+      "property_magnitude_A124"
+    ]
+  },
+  "other_payment_plans": {
+    "categories_sorted": [
+      "A141",
+      "A142",
+      "A143"
+    ],
+    "baseline_dropped": "A141",
+    "dummy_columns": [
+      "other_payment_plans_A142",
+      "other_payment_plans_A143"
+    ]
+  },
+  "housing": {
+    "categories_sorted": [
+      "A151",
+      "A152",
+      "A153"
+    ],
+    "baseline_dropped": "A151",
+    "dummy_columns": [
+      "housing_A152",
+      "housing_A153"
+    ]
+  },
+  "job": {
+    "categories_sorted": [
+      "A171",
+      "A172",
+      "A173",
+      "A174"
+    ],
+    "baseline_dropped": "A171",
+    "dummy_columns": [
+      "job_A172",
+      "job_A173",
+      "job_A174"
+    ]
+  },
+  "own_telephone": {
+    "categories_sorted": [
+      "A191",
+      "A192"
+    ],
+    "baseline_dropped": "A191",
+    "dummy_columns": [
+      "own_telephone_A192"
+    ]
+  },
+  "foreign_worker": {
+    "categories_sorted": [
+      "A201",
+      "A202"
+    ],
+    "baseline_dropped": "A201",
+    "dummy_columns": [
+      "foreign_worker_A202"
+    ]
+  }
+}

@@ -1,0 +1,351 @@
+{
+    "dataset": "german",
+    "target": "Default",
+    "seed": 42,
+    "original_features": [
+        "checking_status",
+        "duration",
+        "credit_history",
+        "purpose",
+        "credit_amount",
+        "savings_status",
+        "employment",
+        "installment_rate",
+        "personal_status",
+        "other_parties",
+        "residence_since",
+        "property_magnitude",
+        "age",
+        "other_payment_plans",
+        "housing",
+        "existing_credits",
+        "job",
+        "num_dependents",
+        "own_telephone",
+        "foreign_worker"
+    ],
+    "encoded_features": [
+        "duration",
+        "credit_amount",
+        "installment_rate",
+        "residence_since",
+        "age",
+        "existing_credits",
+        "num_dependents",
+        "checking_status_A12",
+        "checking_status_A13",
+        "checking_status_A14",
+        "credit_history_A31",
+        "credit_history_A32",
+        "credit_history_A33",
+        "credit_history_A34",
+        "purpose_A41",
+        "purpose_A410",
+        "purpose_A42",
+        "purpose_A43",
+        "purpose_A44",
+        "purpose_A45",
+        "purpose_A46",
+        "purpose_A48",
+        "purpose_A49",
+        "savings_status_A62",
+        "savings_status_A63",
+        "savings_status_A64",
+        "savings_status_A65",
+        "employment_A72",
+        "employment_A73",
+        "employment_A74",
+        "employment_A75",
+        "personal_status_A92",
+        "personal_status_A93",
+        "personal_status_A94",
+        "other_parties_A102",
+        "other_parties_A103",
+        "property_magnitude_A122",
+        "property_magnitude_A123",
+        "property_magnitude_A124",
+        "other_payment_plans_A142",
+        "other_payment_plans_A143",
+        "housing_A152",
+        "housing_A153",
+        "job_A172",
+        "job_A173",
+        "job_A174",
+        "own_telephone_A192",
+        "foreign_worker_A202"
+    ],
+    "categorical_features": [
+        "checking_status",
+        "credit_history",
+        "purpose",
+        "savings_status",
+        "employment",
+        "personal_status",
+        "other_parties",
+        "property_magnitude",
+        "other_payment_plans",
+        "housing",
+        "job",
+        "own_telephone",
+        "foreign_worker"
+    ],
+    "feature_mapping": {
+        "checking_status": [
+            "checking_status_A12",
+            "checking_status_A13",
+            "checking_status_A14"
+        ],
+        "duration": [
+            "duration"
+        ],
+        "credit_history": [
+            "credit_history_A31",
+            "credit_history_A32",
+            "credit_history_A33",
+            "credit_history_A34"
+        ],
+        "purpose": [
+            "purpose_A41",
+            "purpose_A410",
+            "purpose_A42",
+            "purpose_A43",
+            "purpose_A44",
+            "purpose_A45",
+            "purpose_A46",
+            "purpose_A48",
+            "purpose_A49"
+        ],
+        "credit_amount": [
+            "credit_amount"
+        ],
+        "savings_status": [
+            "savings_status_A62",
+            "savings_status_A63",
+            "savings_status_A64",
+            "savings_status_A65"
+        ],
+        "employment": [
+            "employment_A72",
+            "employment_A73",
+            "employment_A74",
+            "employment_A75"
+        ],
+        "installment_rate": [
+            "installment_rate"
+        ],
+        "personal_status": [
+            "personal_status_A92",
+            "personal_status_A93",
+            "personal_status_A94"
+        ],
+        "other_parties": [
+            "other_parties_A102",
+            "other_parties_A103"
+        ],
+        "residence_since": [
+            "residence_since"
+        ],
+        "property_magnitude": [
+            "property_magnitude_A122",
+            "property_magnitude_A123",
+            "property_magnitude_A124"
+        ],
+        "age": [
+            "age"
+        ],
+        "other_payment_plans": [
+            "other_payment_plans_A142",
+            "other_payment_plans_A143"
+        ],
+        "housing": [
+            "housing_A152",
+            "housing_A153"
+        ],
+        "existing_credits": [
+            "existing_credits"
+        ],
+        "job": [
+            "job_A172",
+            "job_A173",
+            "job_A174"
+        ],
+        "num_dependents": [
+            "num_dependents"
+        ],
+        "own_telephone": [
+            "own_telephone_A192"
+        ],
+        "foreign_worker": [
+            "foreign_worker_A202"
+        ]
+    },
+    "missing_value_rules": {
+        "checking_status": {
+            "type": "categorical",
+            "value": "A14"
+        },
+        "duration": {
+            "type": "numeric",
+            "value": 18.0
+        },
+        "credit_history": {
+            "type": "categorical",
+            "value": "A32"
+        },
+        "purpose": {
+            "type": "categorical",
+            "value": "A43"
+        },
+        "credit_amount": {
+            "type": "numeric",
+            "value": 2317.0
+        },
+        "savings_status": {
+            "type": "categorical",
+            "value": "A61"
+        },
+        "employment": {
+            "type": "categorical",
+            "value": "A73"
+        },
+        "installment_rate": {
+            "type": "numeric",
+            "value": 3.0
+        },
+        "personal_status": {
+            "type": "categorical",
+            "value": "A93"
+        },
+        "other_parties": {
+            "type": "categorical",
+            "value": "A101"
+        },
+        "residence_since": {
+            "type": "numeric",
+            "value": 3.0
+        },
+        "property_magnitude": {
+            "type": "categorical",
+            "value": "A123"
+        },
+        "age": {
+            "type": "numeric",
+            "value": 33.0
+        },
+        "other_payment_plans": {
+            "type": "categorical",
+            "value": "A143"
+        },
+        "housing": {
+            "type": "categorical",
+            "value": "A152"
+        },
+        "existing_credits": {
+            "type": "numeric",
+            "value": 1.0
+        },
+        "job": {
+            "type": "categorical",
+            "value": "A173"
+        },
+        "num_dependents": {
+            "type": "numeric",
+            "value": 1.0
+        },
+        "own_telephone": {
+            "type": "categorical",
+            "value": "A191"
+        },
+        "foreign_worker": {
+            "type": "categorical",
+            "value": "A201"
+        }
+    },
+    "category_values": {
+        "checking_status": [
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+        ],
+        "credit_history": [
+            "A30",
+            "A31",
+            "A32",
+            "A33",
+            "A34"
+        ],
+        "purpose": [
+            "A40",
+            "A41",
+            "A410",
+            "A42",
+            "A43",
+            "A44",
+            "A45",
+            "A46",
+            "A48",
+            "A49"
+        ],
+        "savings_status": [
+            "A61",
+            "A62",
+            "A63",
+            "A64",
+            "A65"
+        ],
+        "employment": [
+            "A71",
+            "A72",
+            "A73",
+            "A74",
+            "A75"
+        ],
+        "personal_status": [
+            "A91",
+            "A92",
+            "A93",
+            "A94"
+        ],
+        "other_parties": [
+            "A101",
+            "A102",
+            "A103"
+        ],
+        "property_magnitude": [
+            "A121",
+            "A122",
+            "A123",
+            "A124"
+        ],
+        "other_payment_plans": [
+            "A141",
+            "A142",
+            "A143"
+        ],
+        "housing": [
+            "A151",
+            "A152",
+            "A153"
+        ],
+        "job": [
+            "A171",
+            "A172",
+            "A173",
+            "A174"
+        ],
+        "own_telephone": [
+            "A191",
+            "A192"
+        ],
+        "foreign_worker": [
+            "A201",
+            "A202"
+        ]
+    },
+    "train_rows": 800,
+    "test_rows": 200,
+    "n_encoded_features": 48,
+    "train_default_rate": 0.3,
+    "test_default_rate": 0.3
+}

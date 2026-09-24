@@ -1,0 +1,2 @@
+dataset,model,n_instances,n_features_perturbed,n_perturbation_types,total_perturbations,mean_absolute_probability_change,prediction_flip_rate
+taiwan,mlp,100,20,4,80,0.001565959017980391,0.001

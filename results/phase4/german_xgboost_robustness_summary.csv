@@ -1,0 +1,2 @@
+dataset,model,n_instances,n_features_perturbed,n_perturbation_types,total_perturbations,mean_absolute_probability_change,prediction_flip_rate
+german,xgboost,100,7,4,28,0.012903680248252515,0.020714285714285713

@@ -1,0 +1,2 @@
+dataset,model,n_instances,n_features_perturbed,n_perturbation_types,total_perturbations,mean_absolute_probability_change,prediction_flip_rate
+gmsc,mlp,100,10,4,40,0.002537468613504415,0.0

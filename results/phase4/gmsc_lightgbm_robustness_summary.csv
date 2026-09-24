@@ -1,0 +1,2 @@
+dataset,model,n_instances,n_features_perturbed,n_perturbation_types,total_perturbations,mean_absolute_probability_change,prediction_flip_rate
+gmsc,lightgbm,100,10,4,40,0.09862735819991678,0.1535
