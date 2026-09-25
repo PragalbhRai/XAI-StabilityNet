@@ -1,0 +1,41 @@
+{
+  "status": "CORRECTED",
+  "stage2_locked": true,
+  "stage2_rows_processed": 12000,
+  "seed_stability_pairwise_rows": 12000,
+  "seed_stability_summary_rows": 96,
+  "shap_lime_rows": 3000,
+  "shap_lime_summary_rows": 48,
+  "lime_stochasticity_pairwise_rows": 8700,
+  "prediction_preserving_rows": 1344,
+  "perturbation_rate_rows": 588,
+  "association_rows": 96,
+  "plausibility_rows": 3,
+  "training_seeds": [
+    42,
+    0,
+    7,
+    123,
+    2024
+  ],
+  "n_explain_instances": 50,
+  "plausibility_threshold": 4.0,
+  "bootstrap_replicates": 5000,
+  "bootstrap_unit": "instance",
+  "association_permutations": 10000,
+  "association_p_value_method": "instance_cluster_permutation",
+  "rate_test": "Friedman on 50 matched instance means",
+  "posthoc_test": "paired Wilcoxon",
+  "posthoc_correction": "Holm",
+  "ess_status": "PENDING_STAGE_4",
+  "css_status": "PENDING_STAGE_4",
+  "plots_created": [
+    "seed_stability.png",
+    "shap_vs_lime_consistency.png",
+    "prediction_vs_explanation_drift.png",
+    "prediction_preserving_plausible_drift.png",
+    "perturbation_rate.png",
+    "plausibility_distribution.png"
+  ],
+  "backup": "C:\\Users\\praga\\Downloads\\UROP-20260826T101932Z-1-001\\UROP\\results\\stage3\\_pre_statistical_repair_backup_20260925_030147"
+}

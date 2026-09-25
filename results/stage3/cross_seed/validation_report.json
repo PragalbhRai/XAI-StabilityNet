@@ -1,0 +1,225 @@
+{
+  "files_found": 120,
+  "files_missing": [],
+  "datasets": [
+    "german",
+    "taiwan",
+    "gmsc"
+  ],
+  "models": [
+    "xgboost",
+    "lightgbm",
+    "random_forest",
+    "mlp"
+  ],
+  "training_seeds": [
+    0,
+    7,
+    42,
+    123,
+    2024
+  ],
+  "explainers": [
+    "shap",
+    "lime"
+  ],
+  "instances_per_combo": {
+    "('german', 'xgboost', 'shap')": 50,
+    "('german', 'xgboost', 'lime')": 50,
+    "('german', 'lightgbm', 'shap')": 50,
+    "('german', 'lightgbm', 'lime')": 50,
+    "('german', 'random_forest', 'shap')": 50,
+    "('german', 'random_forest', 'lime')": 50,
+    "('german', 'mlp', 'shap')": 50,
+    "('german', 'mlp', 'lime')": 50,
+    "('taiwan', 'xgboost', 'shap')": 50,
+    "('taiwan', 'xgboost', 'lime')": 50,
+    "('taiwan', 'lightgbm', 'shap')": 50,
+    "('taiwan', 'lightgbm', 'lime')": 50,
+    "('taiwan', 'random_forest', 'shap')": 50,
+    "('taiwan', 'random_forest', 'lime')": 50,
+    "('taiwan', 'mlp', 'shap')": 50,
+    "('taiwan', 'mlp', 'lime')": 50,
+    "('gmsc', 'xgboost', 'shap')": 50,
+    "('gmsc', 'xgboost', 'lime')": 50,
+    "('gmsc', 'lightgbm', 'shap')": 50,
+    "('gmsc', 'lightgbm', 'lime')": 50,
+    "('gmsc', 'random_forest', 'shap')": 50,
+    "('gmsc', 'random_forest', 'lime')": 50,
+    "('gmsc', 'mlp', 'shap')": 50,
+    "('gmsc', 'mlp', 'lime')": 50
+  },
+  "seeds_per_combo": {
+    "('german', 'xgboost', 'shap')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('german', 'xgboost', 'lime')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('german', 'lightgbm', 'shap')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('german', 'lightgbm', 'lime')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('german', 'random_forest', 'shap')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('german', 'random_forest', 'lime')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('german', 'mlp', 'shap')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('german', 'mlp', 'lime')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('taiwan', 'xgboost', 'shap')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('taiwan', 'xgboost', 'lime')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('taiwan', 'lightgbm', 'shap')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('taiwan', 'lightgbm', 'lime')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('taiwan', 'random_forest', 'shap')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('taiwan', 'random_forest', 'lime')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('taiwan', 'mlp', 'shap')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('taiwan', 'mlp', 'lime')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('gmsc', 'xgboost', 'shap')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('gmsc', 'xgboost', 'lime')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('gmsc', 'lightgbm', 'shap')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('gmsc', 'lightgbm', 'lime')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('gmsc', 'random_forest', 'shap')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('gmsc', 'random_forest', 'lime')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('gmsc', 'mlp', 'shap')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "('gmsc', 'mlp', 'lime')": [
+      0,
+      7,
+      42,
+      123,
+      2024
+    ]
+  },
+  "nan_inf_issues": [],
+  "total_pairwise_comparisons": 12000,
+  "summary_rows": 96
+}

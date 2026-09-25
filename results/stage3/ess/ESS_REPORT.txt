@@ -1,0 +1,141 @@
+﻿================================================================================
+ESS FINAL VALIDATION AND SENSITIVITY REPORT
+Generated: 2026-09-25 20:06:15
+================================================================================
+
+VALIDATION STATUS
+================================================================================
+✓ All 24 dataset×model×explainer combinations validated
+✓ Cross-seed Spearman range: [0.4230, 0.9929] ⊂ [0,1]
+✓ Semantic stability range: [0.7261, 0.9890] ⊂ [0,1]
+✓ Both components use corrected instance-level bootstrap:
+  - 50 instances
+  - 10 seed-pairs
+  - 5000 bootstrap replications
+  - Bootstrap seed: 42
+
+EXACT ESS FORMULA
+================================================================================
+ESS = α × cross_seed_spearman + (1-α) × semantic_stability
+
+where:
+  - cross_seed_spearman: Mean Spearman correlation across seed-pairs
+    Source: results/stage3/cross_seed/cross_seed_stability.csv (metric='spearman')
+  - semantic_stability: Mean semantic category agreement across seed-pairs
+    Source: results/stage3/semantic_stability.csv
+
+COMPONENT CORRELATION (REDUNDANCY DIAGNOSTIC)
+================================================================================
+Pearson r  = 0.9574 (p < 0.000001) ***
+Spearman ρ = 0.9722 (p < 0.000001) ***
+
+⚠ WARNING: Components are highly correlated (r > 0.9)
+  - Both contribute similar information
+  - Consider reporting cross-seed Spearman alone as primary stability metric
+  - Semantic stability provides semantic validation but limited independent signal
+  - ESS remains useful as composite but does NOT capture orthogonal dimensions
+
+SENSITIVITY ANALYSIS (α = {0.3, 0.5, 0.7})
+================================================================================
+
+α = 0.3 (30% cross-seed, 70% semantic):
+  Mean:   0.8598
+  Median: 0.8681
+  Std:    0.1018
+  Range:  [0.6352, 0.9902]
+  Lowest: german/mlp/lime (0.6352)
+  Highest: gmsc/random_forest/shap (0.9902)
+
+α = 0.5 (50% cross-seed, 50% semantic) [BASELINE]:
+  Mean:   0.8358
+  Median: 0.8415
+  Std:    0.1243
+  Range:  [0.5746, 0.9910]
+  Lowest: german/mlp/lime (0.5746)
+  Highest: gmsc/random_forest/shap (0.9910)
+
+α = 0.7 (70% cross-seed, 30% semantic):
+  Mean:   0.8118
+  Median: 0.8149
+  Std:    0.1472
+  Range:  [0.5140, 0.9918]
+  Lowest: german/mlp/lime (0.5140)
+  Highest: gmsc/random_forest/shap (0.9918)
+
+RANK STABILITY ACROSS WEIGHTING SCHEMES
+================================================================================
+Kendall's τ:
+  α=0.3 vs α=0.5: τ = 0.9710 ***
+  α=0.5 vs α=0.7: τ = 0.9928 ***
+  α=0.3 vs α=0.7: τ = 0.9638 ***
+
+✓ Rankings are HIGHLY STABLE across weighting schemes
+  - Choice of α has minimal effect on relative ordering
+  - Top/bottom performers remain consistent
+  - ESS is robust to weight perturbations
+
+Largest rank changes:
+  1. taiwan/random_forest/shap: Δrank=2, ranks=[6,4,4]
+  2. gmsc/random_forest/lime:   Δrank=2, ranks=[20,19,18]
+  3. german/random_forest/shap: Δrank=1
+  4. german/random_forest/lime: Δrank=1
+  5. gmsc/lightgbm/lime:        Δrank=1
+
+METHODOLOGICAL CAVEATS
+================================================================================
+1. ESS is a SECONDARY descriptive summary
+   - All underlying components remain separately reported
+   - ESS does NOT replace component-level analysis
+
+2. α=0.5 baseline is NOT empirically optimal
+   - Equal weighting is a descriptive convention
+   - No domain-specific rationale for 50-50 split
+   - Sensitivity analysis shows α choice has limited practical impact
+
+3. Components excluded from ESS:
+   ✗ Faithfulness (explanation-model alignment)
+   ✗ SHAP-LIME agreement (unavailable under current design)
+   ✗ Perturbation robustness (different instance coverage)
+   ✗ Prediction flip rate (model robustness, not explanation stability)
+   ✗ Probability stability (data unavailable)
+
+4. High component correlation (r=0.96):
+   - Cross-seed Spearman and semantic stability measure similar constructs
+   - ESS provides limited additional information beyond cross-seed Spearman alone
+   - Consider simplifying to single primary metric in final reporting
+
+5. Semantic stability methodology:
+   - Uses corrected instance-level bootstrap (not pairwise-level)
+   - Aggregates stability within semantic categories per dataset
+   - Validated to retain bootstrap duplicates properly
+
+OUTPUT FILES
+================================================================================
+✓ results/stage3/ess/ess_sensitivity.csv
+  - 24 rows (one per combination)
+  - Columns: cross_seed_spearman, semantic_stability, ess_{30_70, 50_50, 70_30}
+  - Includes CIs for both components
+
+✓ results/stage3/ess/ess_summary.csv
+  - 3 rows (one per α value)
+  - Summary statistics: mean, median, std, min, max
+
+RECOMMENDATION
+================================================================================
+Given r=0.96 correlation between components:
+  → Report cross-seed Spearman as PRIMARY stability metric
+  → Report semantic stability as SECONDARY validation check
+  → Use ESS (α=0.5) as optional composite summary if needed
+  → Emphasize that ESS is descriptive, not prescriptive
+
+EXPERIMENT INTEGRITY
+================================================================================
+✓ NO experiments were rerun
+✓ NO existing outputs were modified
+✓ Calculation used only existing validated data:
+  - results/stage3/cross_seed/cross_seed_stability.csv
+  - results/stage3/semantic_stability.csv
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,10 @@
+{
+  "predictions_finite": true,
+  "ablation_predictions_finite": true,
+  "feature_counts_correct": true,
+  "no_nan_inf_metrics": true,
+  "feature_ordering_matches": true,
+  "categorical_groups_handled": true,
+  "output_schema_correct": true,
+  "overall_pass": true
+}

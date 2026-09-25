@@ -1,10 +1,178 @@
+﻿# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
 .venv/
 venv/
+ENV/
+env/
+.virtualenv
+
+# Jupyter
 .ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.code-workspace
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================================================================
+# PROJECT-SPECIFIC: Large Data and Artifacts
+# ============================================================================
+
+# Raw datasets (download separately)
 data/raw/
+German_data/
+GiveMeSomeCredit/
+UCI_credit_data/
+
+# Processed data (too large for Git)
+data/processed/*.parquet
+
+# Model checkpoints (reproducible from code)
 models/
-outputs/
-*.pkl
 *.joblib
+*.pkl
+*.h5
+*.pth
+
+# ============================================================================
+# STAGE 2 — Large Generated Artifacts
+# ============================================================================
+
+# Multi-seed model checkpoints (~2GB)
+results/stage2/models/*.joblib
+
+# Explanation files (~500MB parquet files)
+results/stage2/explanations/
+
+# Individual robustness CSVs (60 files, ~10MB total)
+results/stage2/robustness/*_robustness.csv
+
+# Smoke test outputs
+results/stage2/smoke_test/
+
+# LIME stochasticity outputs
+results/stage2/lime_stochasticity/
+
+# ============================================================================
+# STAGE 3 — Large Detail Files
+# ============================================================================
+
+# Pairwise detail file (~5MB)
+results/stage3/cross_seed/cross_seed_pairwise.csv
+
+# Obsolete/superseded files
+results/stage3/seed_stability_pairwise.csv
+results/stage3/seed_stability_summary.csv
+results/stage3/shap_lime_consistency.csv
+results/stage3/shap_lime_consistency_summary.csv
+results/stage3/prediction_preserving_analysis.csv
+results/stage3/perturbation_rate_analysis.csv
+results/stage3/plausibility_analysis.csv
+results/stage3/prediction_explanation_association.csv
+results/stage3/lime_stochasticity_analysis.csv
+
+# Obsolete semantic stability versions (buggy/old)
+results/stage3/semantic_stability_OLD_PAIRWISE_BOOTSTRAP.csv
+results/stage3/semantic_stability_ISIN_BUG.csv
+
+# Placeholder files (superseded by ess/ subdirectory)
+results/stage3/ess_sensitivity.csv
+results/stage3/ess_ablation.csv
+
+# Backup directories
+results/stage3/_pre_statistical_repair_backup_*/
+
+# Plots directory (generated, not source)
+results/stage3/plots/
+
+# ============================================================================
+# STAGE 4 — Large Detail Files
+# ============================================================================
+
+# Instance-level detail files (~2MB each)
+results/stage4/faithfulness/faithfulness_instance.csv
+results/stage4/faithfulness/faithfulness_topk.csv
+
+# Smoke test outputs
+results/stage4/faithfulness/smoke_test_*.csv
+
+# ============================================================================
+# OBSOLETE PHASES (old methodology)
+# ============================================================================
+
+phase1/
+phase2/
+phase3/
+phase4/
+phase5/
+results/phase3/
+results/phase4/
+results/phase4_v2/
+results/phase5/
+results/validation/
+
+# Old Phase-2 results (superseded by stage2)
+results/german_model_metrics.csv
+results/german_predictions.csv
+results/gmsc_model_metrics.csv
+results/gmsc_predictions.csv
+results/taiwan_model_metrics.csv
+results/taiwan_predictions.csv
+results/phase2_all_model_metrics.csv
+
+# ============================================================================
+# TEMP/DEBUG FILES
+# ============================================================================
+
+# Runner script duplicates (keep only final versions)
+stage3_runner.py
+stage3_runner_corrected_part1.py
+stage3_runner_fixed.py
+stage3_semantic_stability_corrected.py
+stage3_plots.py
+
+# Logs
+*.log
+
+# Temp files
+temp_*.py
+test.txt
+validation.txt
+verify.txt
+*_output.txt
+
+# Large per-instance robustness artifacts
+results/stage2/robustness/*.parquet
